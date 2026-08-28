@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEEDF • Portal Acadêmico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">S</div>
+        <div><strong>SEEDF</strong><span>Portal Acadêmico</span></div>
+      </div>
+      <nav>
+        <button class="nav-item active" data-page="presencas">◉ <span>Presenças</span></button>
+        <button class="nav-item" data-page="provas">▣ <span>Provas</span></button>
+        <button class="nav-item" data-page="atividades">✓ <span>Atividades</span></button>
+        <button class="nav-item" data-page="agenda">▤ <span>Agenda</span></button>
+        <button class="nav-item" data-page="notas">☑ <span>Notas</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <button class="theme-btn" id="themeBtn">☾ Modo escuro</button>
+        <button class="logout" id="logoutBtn">↪ Sair</button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Portal do professor</p>
+          <h1 id="pageTitle">Presenças</h1>
+        </div>
+        <div class="profile">
+          <div class="avatar">PR</div>
+          <div><strong>Professor(a)</strong><span>Turma 3º A</span></div>
+        </div>
+      </header>
+
+      <section id="appContent"></section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
