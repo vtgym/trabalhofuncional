@@ -1,0 +1,239 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Ana Beatriz Souza",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Henrique Lima",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 3,
+      "nome": "Camila Oliveira",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 4,
+      "nome": "Daniel Santos",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 5,
+      "nome": "Eduarda Alves",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 6,
+      "nome": "Felipe Martins",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 7,
+      "nome": "Gabriela Costa",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 8,
+      "nome": "João Pedro Silva",
+      "turma": "3º A — Informática"
+    },
+    {
+      "id": 9,
+      "nome": "Larissa Mendes",
+      "turma": "3º A — Informática"
+    }
+  ],
+  "datas_presenca": [
+    "18/08",
+    "19/08",
+    "20/08",
+    "21/08",
+    "22/08",
+    "25/08",
+    "26/08"
+  ],
+  "presencas": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "provas": [
+    {
+      "id": 1,
+      "titulo": "Matemática",
+      "data": "27/08/2026 • 3º A",
+      "descricao": "Avaliação bimestral"
+    },
+    {
+      "id": 2,
+      "titulo": "Programação",
+      "data": "02/09/2026 • 3º A",
+      "descricao": "Lógica e fundamentos"
+    },
+    {
+      "id": 3,
+      "titulo": "Engenharia de Software",
+      "data": "09/09/2026 • 3º A",
+      "descricao": "UML e processos ágeis"
+    }
+  ],
+  "atividades": [
+    {
+      "id": 1,
+      "titulo": "Mapa mental — Scrum",
+      "data": "Entrega: 28/08/2026",
+      "status": "Pendente"
+    },
+    {
+      "id": 2,
+      "titulo": "Diagrama de Casos de Uso",
+      "data": "Entrega: 01/09/2026",
+      "status": "Em andamento"
+    },
+    {
+      "id": 3,
+      "titulo": "Protótipo interativo",
+      "data": "Entrega: 05/09/2026",
+      "status": "Pendente"
+    }
+  ],
+  "agenda": [
+    {
+      "id": 1,
+      "titulo": "Aula de Engenharia de Software",
+      "data": "24/08/2026 • 14:00",
+      "local": "Sala 12"
+    },
+    {
+      "id": 2,
+      "titulo": "Revisão para prova",
+      "data": "27/08/2026 • 15:30",
+      "local": "Laboratório"
+    },
+    {
+      "id": 3,
+      "titulo": "Entrega do projeto",
+      "data": "05/09/2026 • 23:59",
+      "local": "Online"
+    }
+  ],
+  "notas": [
+    {
+      "aluno_id": 1,
+      "media": 6.5
+    },
+    {
+      "aluno_id": 2,
+      "media": 7.2
+    },
+    {
+      "aluno_id": 3,
+      "media": 7.9
+    },
+    {
+      "aluno_id": 4,
+      "media": 8.6
+    },
+    {
+      "aluno_id": 5,
+      "media": 6.5
+    },
+    {
+      "aluno_id": 6,
+      "media": 7.2
+    },
+    {
+      "aluno_id": 7,
+      "media": 7.9
+    },
+    {
+      "aluno_id": 8,
+      "media": 8.6
+    },
+    {
+      "aluno_id": 9,
+      "media": 6.5
+    }
+  ]
+}
